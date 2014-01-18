@@ -1,0 +1,15 @@
+pathogen <- for using bundles
+
+ctrlp.vim
+html5.vim
+mru
+nerdcommenter
+nerdtree
+snipmate.vim
+syntastic
+autocomplpop
+easymotion
+fuzzyfinder
+I9
+sparkup
+surround

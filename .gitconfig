@@ -1,6 +1,3 @@
-[user]
-	name = Kevin Yang
-	email = kevin@desplusdev.com
 [alias]
 	c = commit
 	co = checkout

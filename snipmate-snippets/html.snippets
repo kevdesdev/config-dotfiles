@@ -189,7 +189,7 @@ snippet table Regular HTML #1
 snippet textarea
 	<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">${4}</textarea>${5}
 
-#
+####################################################################################################
 #
 # BOOTSTRAP SNIPPETS
 # https://github.com/bonsaiben/bootstrap-snippets
@@ -1035,4 +1035,30 @@ snippet wellsmall
 	<div class="well well-small">
 	  ${1:...}
 	</div>
+
+
+
+####################################################################################################
+#
+# METEORJS SNIPPETS
+#
+
+snippet template
+	<template name=“${1:name}”>
+	  ${2:...}
+	</template>
+
+# Blaze template snippets
+snippet b
+	{{${1:...}}}
+
+snippet bif
+	{{#if ${1:condition}}}
+	  {{${2:then}}}
+	{{/if}}
+
+snippet beach
+	{{#each ${1:variable}}}
+	  {{${2:...}}}
+	{{/each}}
 

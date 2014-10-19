@@ -153,6 +153,11 @@ nmap <silent> <c-l> :wincmd l<CR>
 nmap <silent><S-h> :tabp<CR>
 nmap <silent><S-l> :tabn<CR>
 
+" ----------Multiple Files associate with multiple snippets----------
+au BufRead *.php set ft=php.html
+au BufNewFile *.php set ft=php.html
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
